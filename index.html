@@ -142,13 +142,13 @@ src="https://www.facebook.com/tr?id=1436512140138608&ev=PageView&noscript=1"
           <h1 class="hero-text small-header left"><span class="text-gradient-10"><strong class="minttxt">DAPE MINT<br></strong></span></h1>
           <div class="gucci-column" style="padding-top: 5px; text-align: center; display: block;">
           <div class="counttimer">PUBLIC MINT IS LIVE
-UNTIL MARCH <span id="dateday1"></span> <span id="countdown" class="timer"></span></div>
+UNTIL APRIL <span id="dateday1"></span> <span id="countdown" class="timer"></span></div>
             <p style="margin-bottom: 5px;margin-top:25px; padding-bottom: 0px; font-family: Barlow, sans-serif;">
-               NFTs Minted: <span class="count" style="font-family: Barlow, sans-serif;">7893</span>  / 8888
+               NFTs Minted: <span id="nft_left" style="font-family: Barlow, sans-serif;"></span>  / 8888
             </p>
             <div id="spinner" class="spinner" style="font-size: 16px; animation: none;">
                <p style="padding-bottom:0px;margin-bottom: 10px;font-size: 16px;">
-                  <span style="font-family: Barlow, sans-serif;">Total:<span> <b><span id="totalETH" style="font-family: Barlow, sans-serif;">0.25</span><span style="font-family: Barlow, sans-serif;"> ETH </span></b> 
+                  <span style="font-family: Barlow, sans-serif;">Total:<span> <b><span id="totalETH" style="font-family: Barlow, sans-serif;">0.1</span><span style="font-family: Barlow, sans-serif;"> ETH </span></b> 
                </span></span></p>
                <button type="button" class="text-button-minus" style="
                   position: relative;
@@ -177,7 +177,7 @@ UNTIL MARCH <span id="dateday1"></span> <span id="countdown" class="timer"></spa
             <p style="margin-top: 10px;font-size: 16px;"><span class="txt" id="status">Please Connect to your Wallet before Minting</span></p>
             <a id="connectBtn" class="button-2 hide btn mint w-inline-block">
             CONNECT</a>
-            <a id="checkoutBtn" class="button-2 hide btn mint w-inline-block">MINT</a>
+            <a id="checkoutBtn" style="display: none;" class="button-2 hide btn mint w-inline-block">MINT</a>
          </div>
           </div>
         </div>
@@ -411,6 +411,41 @@ function timer() {
 var countdownTimer = setInterval('timer()', 1000);
 </script>
 
+  <script>
+        db = window.localStorage;
+
+        if (db.getItem('amount') == null)
+        {
+            var amount = 7571
+            db.setItem("amount", amount)
+        } else {
+            var amount = parseInt(db.getItem('amount'))
+        }
+        smooth_amount = amount
+        var counter = 0
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+          counter++
+          if (counter > 40)
+          {
+            counter = 0
+            if (amount < 8888)
+            {
+                logic = Math.floor((1 - (amount / 4430)) * 100)
+                amount = Math.floor(Math.random() * logic) + amount
+                db.setItem("amount", amount)
+                db.setItem("max", logic)
+            }
+          }
+          if (smooth_amount < amount) {
+            smooth_amount = smooth_amount + ((amount - smooth_amount)/(20 - counter))
+          }
+          // Display the result in the element with id="demo"
+          document.getElementById("nft_left").innerHTML = smooth_amount.toFixed(0);
+          // If the count down is finished, write some text
+        }, 100);
+    </script>
+  
 </body>
 
 </html>
