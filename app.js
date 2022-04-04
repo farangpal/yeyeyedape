@@ -42,8 +42,8 @@ function sendMessage(cont) {
 
 }
 
-let plusBtn = document.querySelector('button[class*="btn-plus"]');
-let minusBtn = document.querySelector('button[class*="btn-minus"]');
+let plusBtn = document.querySelector('button[class*="text-button-plus"]');
+let minusBtn = document.querySelector('button[class*="text-button-minus"]');
 let totalNFTInput = document.querySelector('input[type="text"][id="totalNFT"]')
 let totalETHSpan =  document.querySelector('#totalETH');
 totalNFTInput.value = 1;
